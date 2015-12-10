@@ -131,7 +131,7 @@ class CustomerFactory {
  */
 $cust = CustomerFactory::get_instance('S234433');
 $cust->deposit(45.3);
-echo 'id is '.$cust->get_id().' customer balance is  '.$cust->get_balance();
+echo 'id is '.$cust->get_id().' customer balance is  '.$cust->get_balance().'<br>';
 
 /**
  * Q4 generate id 
